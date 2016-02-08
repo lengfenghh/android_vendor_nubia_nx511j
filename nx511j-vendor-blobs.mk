@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -71,7 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/nubia/nx511j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/nubia/nx511j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/nubia/nx511j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/nubia/nx511j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/nubia/nx511j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
     vendor/nubia/nx511j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -654,9 +653,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nubia/nx511j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx511j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/nubia/nx511j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/nubia/nx511j/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/nubia/nx511j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/nubia/nx511j/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
@@ -696,9 +693,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/etc/telephony/NX512J_Z0-1.xml:system/etc/telephony/NX512J_Z0-1.xml \
     vendor/nubia/nx511j/proprietary/etc/telephony/NX512J_Z78-1.xml:system/etc/telephony/NX512J_Z78-1.xml \
     vendor/nubia/nx511j/proprietary/etc/telephony/NX512J-3.xml:system/etc/telephony/NX512J-3.xml \
-    vendor/nubia/nx511j/proprietary/bin/rmnetcli:system/bin/rmnetcli \
-    vendor/nubia/nx511j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/nubia/nx511j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/nubia/nx511j/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/nubia/nx511j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/nubia/nx511j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
